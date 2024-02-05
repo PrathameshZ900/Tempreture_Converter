@@ -1,0 +1,170 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background: url('https://media.istockphoto.com/id/1217507110/photo/hot-summer-or-heat-wave-background.jpg?s=612x612&w=0&k=20&c=JeNJBv26e0O1sTMPynNuxA9IjVmHC7fYa_qwh7XMLCA=') no-repeat center center fixed; */
+    /* background: url("weather.jpg"); 
+    background: url("https://media.istockphoto.com/id/1299471370/photo/brown-wood-thermometer-calibrated-in-degrees-celsius-and-fahrenheit-on-the-gray-wooden-wall.jpg?s=2048x2048&w=is&k=20&c=_uAQYr_0L5a5nCTT5uOpy5Ujl5SM9qTIfwz8E74TOuc=");
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+     background-color: rgba(255, 255, 255, 0.8);  /*Adding a semi-transparent background to the container  
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: url("https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background: url('https://media.istockphoto.com/id/1217507110/photo/hot-summer-or-heat-wave-background.jpg?s=612x612&w=0&k=20&c=JeNJBv26e0O1sTMPynNuxA9IjVmHC7fYa_qwh7XMLCA=') no-repeat center center fixed; */
+    /* background: url("weather.jpg"); */
+    background: url("https://media.istockphoto.com/id/1299471370/photo/brown-wood-thermometer-calibrated-in-degrees-celsius-and-fahrenheit-on-the-gray-wooden-wall.jpg?s=2048x2048&w=is&k=20&c=_uAQYr_0L5a5nCTT5uOpy5Ujl5SM9qTIfwz8E74TOuc=");
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Media query for screens with a maximum width of 468px */
+@media (max-width: 468px) {
+    body {
+        background: url("https://your-mobile-background-image-url.jpg");
+    }
+    
+    /* Add additional styles for smaller screens here */
+}
